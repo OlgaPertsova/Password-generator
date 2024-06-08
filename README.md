@@ -25,4 +25,5 @@ Run the app docker:
     git clone https://github.com/OlgaPertsova/Password-generator.git
     cd password-generator
     docker build . --tag docker-pass-generator
-    docker run image_id/image_tag
+    docker images
+    docker run -p 8004:8001 image_id/image_tag
