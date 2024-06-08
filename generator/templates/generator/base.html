@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password</title>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+<div class="menu">
+        <p><a href="{%url 'about'%}">Информация о сайте</a></p>
+        <p><a href="{%url 'home'%}">Вернуться на главную</a></p>
+</div>
+<div class="container">
+    {%block content%}
+    {%endblock%}
+</div>
+</body>
+</html>
